@@ -1,0 +1,91 @@
+.page {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.cards article,
+.panel {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  padding: 14px;
+}
+
+.cards h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.cards strong {
+  font-size: 24px;
+}
+
+.panel {
+  margin-bottom: 16px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  padding: 8px 6px;
+  font-size: 14px;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.country-list li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+.error {
+  color: #b00020;
+}
