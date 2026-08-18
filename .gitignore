@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Generated data and builds
+backend/salary.db
+backend/*.db-wal
+backend/*.db-shm
+frontend/dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and OS
+*.log
+.DS_Store
