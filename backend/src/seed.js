@@ -69,7 +69,6 @@ function seed(count = 10000) {
 
   tx();
   db.close();
-  // eslint-disable-next-line no-console
   console.log(`Seeded ${count} employees`);
 }
 
